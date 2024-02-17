@@ -1,0 +1,478 @@
+body{
+    font-family: "meiryo" !important;
+}
+h2{
+color: #0099CC !important;
+}
+
+
+
+/* サイドバーの無効化 */
+#VideoMenuDrawer-app{
+display:none !important;
+}
+/* サイドバーの無効化 */
+.Separator{
+display:none !important;
+}
+/* ベースレイアウト全体のスタイル */
+.BaseLayout-contents{
+background-color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#CommonHeader{
+height: 30px;
+min-height: 30px !important
+}
+.common-header-1o7v8vg nico-CommonHeaderRoot{
+height: 30px !important;
+}
+.common-header-cdesjj{
+height: 30px !important;
+background: linear-gradient(#4a4a4a, #000000);
+}
+.common-header-4609zu{
+height: 30px !important;
+width: 680px;
+background: linear-gradient(#4a4a4a, #000000);
+}
+
+
+/* ニコニコ */
+.common-header-1nl1a3a:hover{
+background: linear-gradient(#b1b7ba, #494f52);
+border: 0.05rem solid #757575;
+color: #252525 !important;
+}
+
+/* 動画からNアニまで */
+.common-header-b4zojx:hover{
+background: linear-gradient(#b1b7ba, #494f52);
+border: 0.05rem solid #757575;
+}
+
+/* その他 */
+.common-header-12t3fr7:hover{
+background: linear-gradient(#b1b7ba, #494f52);
+border: 0.05rem solid #757575;
+}
+
+
+/* プレミアム会員ボタン */
+.common-header-m5ds7e{
+}
+.common-header-m5ds7e:hover{
+ background: linear-gradient(#ffbf00, #ad8500);
+ border: 0.075rem solid #757575
+ width: 90%;
+}
+.common-header-rg5t43{
+width: 118px !important;
+}
+.common-header-hxe5gi{
+display: none;
+}
+.common-header-1i1lqs0:hover{
+ color: white !important;
+}
+
+/* ベル */
+.common-header-dandf8{
+width: 34px !important;
+height: 32px !important;
+}
+
+
+
+
+.nico-CommonHeaderRoot .common-header-1h5huqo {
+    border-radius: 0% !important;
+}
+.common-header-w2sn95{
+color: #bf4b4b !important;
+}
+
+
+.common-header-1ivnjlh {
+top: 32px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.BaseLayout-header{
+margin-bottom: 10px;
+}
+.HeaderContainer{
+height: 90px !important;
+
+}
+.HeaderContainer-logo{
+display: none;
+}
+.LogoContainer{
+width: 250px !important;
+margin-top: 5px;
+margin-right: 40px;
+margin-bottom: 30px;
+}
+.NicovideoLogo-link{
+	width: 218px;
+	height: 49px;
+	background-image: url('https://web.archive.org/web/20070118134526im_/http://www.nicovideo.jp/img/tpl/head/logo.gif')!important;
+}
+
+
+
+.HeaderContainer-searchBox{
+margin-right: 400px !important;
+}
+.HeaderContainer-ads{
+display: none !important;
+}
+
+
+/* 検索の全体スタイル */
+.SearchBox SearchBoxContainer-searchBox{
+height: 75px;
+}
+/* 検索のタブのスタイル */
+.SearchBox-optionTab{
+font-family: "meiryo ui" !important;
+width: 200px !important;
+margin-bottom: 5px !important;
+margin-left: 210px !important;
+}
+/* 検索のタブの個別スタイル */
+.SearchBox-option{
+border-radius: 0px 0px 0 0 !important;
+background-color: #252525 ;
+}
+.SearchBox-option[data-active=true] {
+    background-color: red !important;
+    color: #fff;
+}
+
+/* 検索の入力ボックスのスタイル */
+.SearchBox-form{
+border-radius: 0px 0px 0 0 !important;
+width: 600px !important;
+box-shadow: none !important;
+}
+/* 検索の入力ボックスのまえに文字を追加 */
+.SearchBox-form::before{
+	content:"動画タイトル検索：";
+	#333333;
+	font-size: 12px;
+}
+.SearchBox-query{
+    word-break: break-all !important;
+    background: #FFE !important;
+    color: #443 !important;
+    border: solid 1px #333 !important;
+    width: 260px !important;
+    height: 23px !important;
+margin-right: 5px !important;
+}
+.SearchBox-query:focus-visible {
+    outline: -webkit-focus-ring-color auto 1px;
+    outline-color: ;
+    outline-style: ;
+    outline-width: ;
+}
+/* 検索の入力ボックスの"動画を検索"を消す */
+.SearchBox-query::placeholder {
+    opacity: 0;
+    visibility: hidden;
+}
+/* ベースレイアウトのheaderの検索のボタン */
+.SearchBox-submit{
+    margin-left: 5px !important;
+    border-radius: 0px 0px 0 0 !important;
+    height: 23px !important;
+    width: 72px !important;
+    background-color: transparent !important;
+    background-image: url('https://web.archive.org/web/20070206124422im_/http://www.nicovideo.jp/img/search/btn_submit.gif')!important;
+}
+/*検索のボタンの🔍を消す */
+.SearchBox-submit::after{
+display: none  !important;
+}
+
+
+
+
+
+
+
+
+.VideoTopGenreListContainer{
+margin-bottom: 5px;
+background: rgb(0,0,0);
+background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(74,74,74,1) 100%);
+border: 0.1rem solid #889499 !important;
+border-radius: 18px;
+}
+/*main-hedderここまで */
+
+
+
+
+
+
+
+
+
+
+
+
+/* ベースレイアウトのmainの全体スタイル */
+.BaseLayout-main{
+background-image: url("https://thatdownnomorry.github.io/thatdownnomorry/image/oak_planks.png");
+  display: flex;
+max-width: 100% !important;
+}
+
+
+
+
+
+/* 動画紹介欄全体を消す */
+.VideoIntroductionAreaContainer{
+display: none  !important;
+}
+
+.BaseLayout-block {
+    margin: 5px 5px 5px 5px !important;
+    width: 680px !important;
+    max-width: 680px !important;
+}
+.BaseLayout-block BaseLayout-block-2{
+   padding: 5px 5px 20px;
+    width: 680px !important;
+    margin: 0px 0px 0px 0px !important;
+    margin-top: 0px !important;
+}
+.BaseLayout-block BaseLayout-block-3{
+   padding: 5px 5px 20px;
+    width: 680px !important;
+    margin: 0px 0px 0px 0px !important;
+    margin-top: 0px !important;
+}
+
+
+
+
+/* おすすめの動画エリア全体のスタイル */
+.RecommendAreaContainer{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+.RecommendAreaContainer .ColumnTitle{
+background-color: white;
+background-image: url("https://web.archive.org/web/20090227230828im_/http://res.nicovideo.jp/img/index/top/tit_osusume.gif");
+background-size: contain;
+background-repeat: no-repeat;
+width: 90%;
+height: 36px;
+}
+
+
+.ColumnTitle-link{
+width: 90%;
+height: 36px;
+}
+/* おすすめの動画エリアのタイトルの画像、タイトルを削除 */
+.RecommendAreaContainer .ColumnTitle-icon{
+display: none;
+}
+.RecommendAreaContainer .ColumnTitle-text{
+display: none;
+}
+.RecommendAreaContainer .ColumnTitle-linkText{
+display: none;
+}
+.RecommendAreaContainer .ColumnTitle-linkArrow{
+display: none;
+}
+
+
+.RecommendVideoContainer-videos{
+width: 640px;
+margin: 0 auto;
+padding: 5px 5px 5px 5px ;
+background-color: white;
+}
+
+/* おすすめの動画エリアの個々の全体のスタイル */
+.NC-VideoCardWrapper{
+   display: flex !important;
+   flex-wrap: wrap  !important;
+   justify-content: flex-start !important;
+    margin-top: 5px !important;
+    margin-left: 5px !important;
+    word-break: break-all;
+    word-wrap: break-word;
+    color: #333333;
+    border: solid 1px #CCCCCC;
+    padding: 3px;
+    background: #F7F7F7;
+    width: 200px;
+    height: 280px;
+}
+.NC-Card-main::before{
+	content:"SMILEVIDEO";
+	#333333;
+	font-size: 10px;
+	pointer-events: none;
+}
+/* おすすめの動画エリアの個々の画像のカバー */
+.NC-Thumbnail {
+padding-top: 80% !important;
+border-radius: 0px  !important;
+}
+.NC-VideoThumbnailComment{
+display: none;
+}
+.NC-Card-mainHeader{
+    font-weight: bold;
+    text-decoration: underline;
+    font-size: 12px;
+}
+.NC-NicoadFrame:after{
+background-image: none !important;
+}
+.NC-VideoLength{
+    font-family: "MS P Gothic" ;
+    bottom: 0px !important;
+    position: absolute;
+    right: 0px !important;
+    font-size: 12px !important;
+    font-weight: bold !important;
+    color: #FFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ViewHistoriesContainer{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+
+
+
+.TagPushVideosContainer{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+
+
+.HotTagsContainer{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+.HotTagsContainer-list{
+flex-direction: row !important;
+flex-wrap: wrap !important;
+}
+
+
+
+.RankingVideosContainer{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+.RankingVideosContainer-row{
+flex-direction: row !important;
+flex-wrap: wrap !important;
+}
+
+.FollowingVideosContainer{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+
+
+.OnTvAnimeVideosContainer{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+
+
+.NicoadVideosContainer{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+
+
+
+
+
+
+.BaseLayout-block BaseLayout-block-11{
+   background-color: #edede8;
+    width: 680px;
+   padding: 5px 5px 5px 5px ;
+    border: solid 1px #CCCCCC;
+}
+
